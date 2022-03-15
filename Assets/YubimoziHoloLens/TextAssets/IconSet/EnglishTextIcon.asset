@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb41c8335e2ca96449f3991db5fa5702, type: 3}
+  m_Name: EnglishTextIcon
+  m_EditorClassIdentifier: 
+  quadIcons:
+  - {fileID: 2800000, guid: 5532ed0a5eed0494e95a99a9c99c29f7, type: 3}
+  - {fileID: 2800000, guid: ce8368fbb7944e64895257bd201953c7, type: 3}
+  - {fileID: 2800000, guid: 4f4705f0a5b44aa4799723ba4903b213, type: 3}
+  - {fileID: 2800000, guid: d3d1809a5f8e95942888a4d67e0731b9, type: 3}
+  - {fileID: 2800000, guid: a79bf11fe682990408cd5a823b6110c5, type: 3}
+  - {fileID: 2800000, guid: f969d1a76e7e27043a04fca1072d43ff, type: 3}
+  - {fileID: 2800000, guid: 281b85c8a0012c54d8bd68992cc855fc, type: 3}
+  - {fileID: 2800000, guid: fe74188373665ef4aae7e97cfbaa8b6a, type: 3}
+  - {fileID: 2800000, guid: 896370f123999d84c9c3de40757a7518, type: 3}
+  - {fileID: 2800000, guid: bbd7b6790222c91419e8977b5424759e, type: 3}
+  - {fileID: 2800000, guid: 84b8d6c64f38b2a45ae410f1d16dac21, type: 3}
+  - {fileID: 2800000, guid: 33db1dfbb9813f24aa0b7ceed2418090, type: 3}
+  - {fileID: 2800000, guid: ca15d532da1476f46bc593ac87812cdc, type: 3}
+  - {fileID: 2800000, guid: 36003c1795bfb6640a9b6169d475b90c, type: 3}
+  - {fileID: 2800000, guid: d1c8872b052d7d143aaec6b1088098f6, type: 3}
+  - {fileID: 2800000, guid: b4cb09e04368ee84f90262876d6c2bed, type: 3}
+  - {fileID: 2800000, guid: bca880e280eb6f945ba747b9089f56d4, type: 3}
+  - {fileID: 2800000, guid: d1148a8f2bee0ef4abde1d3ff04947ae, type: 3}
+  - {fileID: 2800000, guid: b59a3df7bd7822b40821114dc4f8b7f8, type: 3}
+  - {fileID: 2800000, guid: 15d9b6252b3c0014db4c7eb5018900fa, type: 3}
+  - {fileID: 2800000, guid: a9c177ec0e7e02d498a3419826f9ce45, type: 3}
+  - {fileID: 2800000, guid: aa06f1fc12e1b5d4a922f78d5f954404, type: 3}
+  - {fileID: 2800000, guid: a2171efcb1ecf9244bd3ddf34d7fa23e, type: 3}
+  - {fileID: 2800000, guid: 17a6713a50814ee4d8056fd397772a7c, type: 3}
+  - {fileID: 2800000, guid: 1071ae5dfae21a245a745fbbb3b11446, type: 3}
+  - {fileID: 2800000, guid: 107d0fa33601af44ca1f859a1dc3da41, type: 3}
+  spriteIcons: []
+  charIconFont: {fileID: 11400000, guid: abfa0f1938d7307479122fa2bffa2763, type: 2}
+  charIcons: []
