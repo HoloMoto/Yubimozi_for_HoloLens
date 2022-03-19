@@ -428,7 +428,8 @@ public class YubimoziRender : MonoBehaviour
                     _anim.SetTrigger("Me");
                     break;
                 case "G" :
-                  //  _anim.SetTrigger("EngG");
+                    case "g":
+                    _anim.SetTrigger("EngG");
                     break;
                 case "H" :
                     case "h":
@@ -439,13 +440,15 @@ public class YubimoziRender : MonoBehaviour
                     _anim.SetTrigger("I");
                     break;
                 case "J" :
-                   // _anim.SetTrigger("EngJ");
+                    case "j":
+                    _anim.SetTrigger("EngJ");
                     break;
                 case "K" :
                     case "k":
                     _anim.SetTrigger("Ka");
                     break;
                 case "L" :
+                    case "l":
                     _anim.SetTrigger("Re");
                     break;
                 case "M" :
@@ -461,9 +464,11 @@ public class YubimoziRender : MonoBehaviour
                     _anim.SetTrigger("O");
                     break;
                 case "P" :
+                    case "p":
                     _anim.SetTrigger("EngP");
                     break;
                 case "Q" :
+                    case "q" :
                     _anim.SetTrigger("EngQ");
                     break;
                 case "R" :
@@ -484,7 +489,7 @@ public class YubimoziRender : MonoBehaviour
                     break;
                 case "V" :
                     case "v":
-                    _anim.SetTrigger("2");
+                    _anim.SetTrigger("EngV");
                     break;
                 case "W" :
                     case "w":
@@ -500,10 +505,8 @@ public class YubimoziRender : MonoBehaviour
                     break;
                 case "Z" :
                     case "z":
-                    _anim.SetTrigger("Z");
+                    _anim.SetTrigger("EngZ");
                     break;
-                
-                
             }
             yield return new WaitForSeconds(_speed);
         }
