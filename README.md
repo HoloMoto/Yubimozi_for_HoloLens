@@ -2,6 +2,8 @@
 
 This project is an application for learning non-speech languages using MixedReality on HoloLens.
 
+https://www.youtube.com/watch?v=Q14C8q2lllk&feature=youtu.be
+
 ## What can this app do?
 
 This application currently allows you to learn Fingerspelling.
