@@ -501,7 +501,7 @@ public class YubimoziRender : MonoBehaviour
                     break;
                 case "W" :
                     case "w":
-                    _anim.SetTrigger("3");
+                    _anim.SetTrigger("EngW");
                     break;
                 case "X" :
                     case "x":
