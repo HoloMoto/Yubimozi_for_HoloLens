@@ -31,4 +31,4 @@ MonoBehaviour:
     keys:
     - BuildDeployWindow_AppLauncherModelLocation
     values:
-    - 
+    - Assets/YubimoziHoloLens/AppLauncher/3DAppLauncher.glb
