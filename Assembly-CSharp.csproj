@@ -89,13 +89,13 @@
      <Compile Include="Assets\MRTKSample\Mixed Reality Toolkit Examples\2.7.3\Demos - HandTracking\Scripts\SolverTrackedTargetType.cs" />
      <Compile Include="Assets\MRTKSample\Mixed Reality Toolkit Examples\2.7.3\Demos - Input\Scenes\PrimaryPointer\PrimaryPointerHandlerExample.cs" />
      <Compile Include="Assets\MRTKSample\Mixed Reality Toolkit Examples\2.7.3\Demos - HandTracking\Scripts\LaunchUri.cs" />
+     <Compile Include="Assets\YubimoziHoloLens\Script\Utilis\Settings.cs" />
      <Compile Include="Assets\YubimoziHoloLens\Script\Utilis\MaterialChanger.cs" />
      <Compile Include="Assets\YubimoziHoloLens\Script\Azure\Translatio.cs" />
      <Compile Include="Assets\YubimoziHoloLens\Script\UX\Splash\SplashText.cs" />
      <Compile Include="Assets\MRTKSample\Mixed Reality Toolkit Examples\2.7.3\Demos - HandTracking\Scripts\DemoTouchButton.cs" />
      <Compile Include="Assets\MRTKSample\Mixed Reality Toolkit Examples\2.7.3\Demos - UX\Dwell\ListItemDwell.cs" />
      <Compile Include="Assets\MRTKSample\Mixed Reality Toolkit Examples\2.7.3\Demos - HandTracking\Scripts\HandInteractionTouchRotate.cs" />
-     <Compile Include="Assets\YubimoziHoloLens\Script\Utilis\Settings.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\MRTK\Shaders\Text3DShader.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

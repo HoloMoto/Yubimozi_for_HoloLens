@@ -49,6 +49,10 @@ public class YubimoziRender : MonoBehaviour
         
         _speed = 3.0f * (eventData.NewValue+0.5f);
     }
+    
+    /// <summary>
+    /// Performs animation of text entered by voice input.
+    /// </summary>
     public void YubimoziAzureSent()
     {
         int _textsize = _MasterText.text.Length;
@@ -66,6 +70,10 @@ public class YubimoziRender : MonoBehaviour
         YubimoziAnimatior();
     }
 
+    /// <summary>
+    /// Split the text one character at a time and perform an animation for each character.
+    ///It is currently redundant and will need to be improved in the near future using dictionary types, etc.
+    /// </summary>
     IEnumerator AnimatoinSwitch()
     {
         int _textsize= _TextList.Length;
