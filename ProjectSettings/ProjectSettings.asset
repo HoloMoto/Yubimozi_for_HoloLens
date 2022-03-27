@@ -136,6 +136,7 @@ PlayerSettings:
     Others: 1
   bundleVersion: 0.1
   preloadedAssets:
+  - {fileID: 0}
   - {fileID: 3746074526177437499, guid: 48ee3c029f8965f4bb85b34c24e567c0, type: 2}
   - {fileID: 2055255781987005725, guid: c23a00d8acb02914f9bfdf0c46aa2286, type: 2}
   metroInputSource: 0

@@ -55,6 +55,12 @@ public class YubimoziRender : MonoBehaviour
     /// </summary>
     public void YubimoziAzureSent()
     {
+        StartCoroutine("AzreSent");
+    }
+
+    IEnumerator AzreSent()
+    {
+        yield return new WaitForSeconds(2);
         int _textsize = _MasterText.text.Length;
         _TextList = new string[_textsize];
         Debug.Log(_textsize);
@@ -67,9 +73,8 @@ public class YubimoziRender : MonoBehaviour
             Debug.Log(_refreshText);
             _TextList[i] = _addText;
         }
-        YubimoziAnimatior();
+        YubimoziAnimatior();   
     }
-
     /// <summary>
     /// Split the text one character at a time and perform an animation for each character.
     ///It is currently redundant and will need to be improved in the near future using dictionary types, etc.

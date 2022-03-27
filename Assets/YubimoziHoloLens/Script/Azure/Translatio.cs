@@ -24,8 +24,12 @@ public class Translatio : MonoBehaviour
     private object threadLocker = new object();
     [SerializeField]
     private LangageManager _lm;
+
+    [SerializeField] private YubimoziRender _yr;
+    bool _isSent = false;
     public async void ButtonClick()
     {
+
         var translationConfig = SpeechTranslationConfig.FromSubscription(SpeechServiceSubscriptionKey, SpeechServiceRegion);
          
         if (_lm._isJapaneese)
@@ -54,6 +58,8 @@ public class Translatio : MonoBehaviour
                 {
                     translatedString = element.Value;
                 }
+
+                _isSent = true;
             }
             else if (result.Reason == ResultReason.NoMatch)
             {
@@ -67,6 +73,7 @@ public class Translatio : MonoBehaviour
             lock (threadLocker)
             {
                 waitingforReco = false;
+
             }
         }
     }
@@ -89,14 +96,24 @@ public class Translatio : MonoBehaviour
             micButton.ButtonPressed.AddListener(ButtonClick);
         }
     }
-
     // Update is called once per frame
     void Update()
     {
         lock (threadLocker)
         {
+
             recognizedText.text = recognizedString;
             translatedText.text = translatedString;
+            if (_isSent)
+            {
+                YubimoziSent();
+            }
         }
+    }
+
+    void YubimoziSent()
+    {
+        _yr.YubimoziAzureSent();
+        _isSent = false;
     }
 }
